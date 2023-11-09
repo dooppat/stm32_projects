@@ -1,6 +1,8 @@
 #ifndef __LED_H
 #define __LED_H
 
+#define Led_Pin GPIO_Pin_9
+
 void LED_Init(void);
 void LED1_ON(void);
 void LED1_OFF(void);

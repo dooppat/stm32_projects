@@ -15,11 +15,11 @@ int main(void)
 		KeyNum = Key_GetNum();
 		if (KeyNum == 1)
 		{
-			LED1_Turn();
-		}
-		if (KeyNum == 2)
-		{
-			LED2_Turn();
+			if(GPIO_ReadOutputDataBit(GPIOB,Led_Pin)==1)
+			GPIO_ResetBits(GPIOB,Led_Pin);
+			else{
+			GPIO_SetBits(GPIOB,Led_Pin);
+			}
 		}
 	}
 }
