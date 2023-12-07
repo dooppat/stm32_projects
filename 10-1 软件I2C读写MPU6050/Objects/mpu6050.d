@@ -1,7 +1,7 @@
 .\objects\mpu6050.o: Hardware\MPU6050.c
 .\objects\mpu6050.o: .\Start\stm32f10x.h
 .\objects\mpu6050.o: .\Start\core_cm3.h
-.\objects\mpu6050.o: E:\soft\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu6050.o: D:\APP\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mpu6050.o: .\Start\system_stm32f10x.h
 .\objects\mpu6050.o: .\User\stm32f10x_conf.h
 .\objects\mpu6050.o: .\Library\stm32f10x_adc.h
@@ -30,3 +30,4 @@
 .\objects\mpu6050.o: .\Library\misc.h
 .\objects\mpu6050.o: Hardware\MyI2C.h
 .\objects\mpu6050.o: Hardware\MPU6050_Reg.h
+.\objects\mpu6050.o: Hardware\SCCB.h
